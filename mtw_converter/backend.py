@@ -4,6 +4,8 @@ import tkFileDialog
 import os
 from functools import partial, wraps
 
+import backend
+
 
 def init_ui(box_value, label_update, matrix_path):
     create_labels(label_update)
